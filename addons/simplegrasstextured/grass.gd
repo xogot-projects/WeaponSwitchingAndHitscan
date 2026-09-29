@@ -120,7 +120,7 @@ func _process(_delta : float):
 		_update_multimesh()
 
 
-func _get_property_list() -> Array:
+func _get_property_list() -> Array[Dictionary]:
 	if _properties == null:
 		return []
 	return _properties
